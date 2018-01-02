@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../images/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+}
+img{
+	display:block;
+	margin:auto;
+}
+
+p{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	color:#475A61;
+	line-height: 20px;
+	text-align: center;
+}
+
+.form-control{
+	margin: 0 auto;
+	width: 382px;
+	height: 540px;
+	background-color: #2a363d;
+	border-width: 0;
+	font-weight:500;
+	line-height: 20px;
+	font-size: 18px;
+	border-radius: 1px;
+	height: 50px;
+	color: #fff;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.checkbox{
+	margin: 0 auto;
+	width: 382px;
+	color: #4f636b;
+	font-weight: 600;
+	text-align: left;
+	font-size: 14px;
+    line-height: 14px;
+}
+
+.form-control:focus { 
+   background-color: #2a363d;
+   color:#fff;
+   border: #2a363d;
+    outline: none;
+}
+
+.input:active{
+	outline: none;
+}
+
+.btn{
+	width: 382px;
+	background-image: linear-gradient(to right, #39cbae 0%, #18e2e5 100%);
+	background-repeat: repeat-x;
+	color:#fff;
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 20px !important;
+	outline: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn:focus{
+	background-color: #28A696;
+	outline: none;
+}
+
+.btn:active{
+	background-color: #28A696;	
+	outline: none;
+}
+
